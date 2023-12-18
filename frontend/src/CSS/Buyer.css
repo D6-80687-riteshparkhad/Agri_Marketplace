@@ -1,0 +1,68 @@
+/* Combine your existing styles with the enhancements for the categories */
+
+#main-div{
+    background-color: #f3e3f8;
+}
+
+
+.popular-destinations-see-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .popular-destinations-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .popular-destinations-link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .popular-destinations-items {
+    border: 1px solid #ccc; /* New: Border around the entire block of items */
+    padding: 16px; /* New: Padding inside the border */
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* New: Space between categories */
+  }
+  
+  .popular-destinations-item {
+    flex: 0 0 calc(33.33% - 16px); /* Adjusted: Three items per row with spacing */
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .popular-destinations-item img {
+    max-width: 100%;
+    max-height: 100px; /* Adjust the maximum height of the category images */
+    margin-bottom: 0.5rem;
+  }
+  
+  .popular-destinations-item-label {
+    display: block;
+    font-size: 14px; /* Adjusted: Smaller font size */
+    color: #333;
+  }
+  
+  /* Add any additional styles or adjustments here */
+  
+  .product-card {
+    background-color: #aae7aa; /* Light green background */
+    border: 1px solid #4fe6a4; /* Dark green border */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Add a hover effect */
+  }
+  

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../CSS/Home.css'; // Import your custom CSS
-import { Carousel } from 'react-bootstrap';
+// import { Carousel } from 'react-bootstrap';
+import Carouselcomp from './Carouselcomp';
 
 function Home() {
   return (
@@ -16,14 +17,14 @@ function Home() {
                 Explore Fresh Produce
               </button>
             </div>
-            <div className="col-md-6 mt-5 mb-5">
+            <div className="col-md-9 mt-5 mb-5">
               {/* <img
                 src="https://images.unsplash.com/photo-1559884743-74a57598c6c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGFncmljdWx0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
                 alt="Agricultural Landscape"
                 className="img-fluid"
               /> */}
 
-              <Carousel></Carousel>
+              <Carouselcomp/>
             </div>
           </div>
         </div>
