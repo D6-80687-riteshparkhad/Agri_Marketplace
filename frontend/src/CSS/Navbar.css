@@ -1,0 +1,44 @@
+.custom-navbar {
+    background-color: #49a69b; /* Custom background color */
+    color: #fff; /* Text color */
+  
+    .navbar-brand {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #fff; /* Brand text color */
+    }
+  
+    .nav-item {
+      .nav-link {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fff; /* Nav link text color */
+        transition: color 0.3s;
+        padding: 0.5rem 1rem;
+  
+        &:hover {
+          color: #E91E63; /* Hover color */
+          background-color: #fff; /* Background color on hover */
+          border-radius: 0.3rem;
+        }
+      }
+    }
+    .nvb{
+      margin-left: 700px;
+    }
+
+    
+  
+    .navbar-toggler-icon {
+      background-color: #fff; /* Custom color for the mobile menu icon */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .custom-navbar .navbar-toggler {
+      background-color: #fff; /* Custom color for the mobile menu icon in responsive mode */
+    }
+  }
+  

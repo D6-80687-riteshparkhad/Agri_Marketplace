@@ -1,0 +1,18 @@
+/* Example styles for the carousel */
+.carousel {
+    background-color: #f0f0f0;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 24px;
+  }
+  
+  .carousel-caption p {
+    font-size: 16px;
+  }
+  

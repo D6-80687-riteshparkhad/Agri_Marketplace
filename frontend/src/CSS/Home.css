@@ -1,0 +1,43 @@
+/* .homepage {
+    background: url('background-image.jpeg') center center;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .btn-buyer {
+    background-color: #007bff;
+  }
+  
+  .btn-seller {
+    background-color: #28a745;
+  }
+  
+  .btn-buyer:hover, .btn-seller:hover {
+    opacity: 0.8;
+  }
+   */
+
+  .top{
+    background-color: rgb(77, 233, 171);
+  }
+
+#head{
+  height: 700px;
+}
+.ml{
+  margin-left: -20px;
+}
+
+  /* External CSS file (e.g., Home.css) */
+.product-card {
+  background-color: #aae7aa; /* Light green background */
+  border: 1px solid #4fe6a4; /* Dark green border */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Add a hover effect */
+}
